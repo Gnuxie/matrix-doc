@@ -4,7 +4,7 @@
 
 Within Matrix, homeservers inherit any authority that any of the server's users has because of the
 ability a server has to impersonate users.
-This is especially true when a user on a homserver posses the the power level to
+This is especially true when a user on a homserver posses the power level to
 change `m.room.power_levels`, as this means the server can then transfer power
 the user posses to any other user or server.
 
